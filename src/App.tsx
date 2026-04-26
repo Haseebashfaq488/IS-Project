@@ -11,6 +11,7 @@ import HillCipher from './pages/HillCipher';
 import VigenereCipher from './pages/VigenereCipher';
 import RailFence from './pages/RailFence';
 import RowTransposition from './pages/RowTransposition';
+import DesCipher from './pages/DesCipher';
 
 const theme = createTheme();
 
@@ -30,6 +31,7 @@ function App() {
           <Route path="/vigenere" element={<VigenereCipher />} />
           <Route path="/railfence" element={<RailFence />} />
           <Route path="/rowtransposition" element={<RowTransposition />} />
+          <Route path="/des" element={<DesCipher />} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>

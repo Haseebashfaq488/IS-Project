@@ -18,6 +18,7 @@ const Navbar: React.FC = () => {
           <Link to="/vigenere" style={{ textDecoration: 'none' }}><Button color="inherit">Vigenere</Button></Link>
           <Link to="/railfence" style={{ textDecoration: 'none' }}><Button color="inherit">Rail Fence</Button></Link>
           <Link to="/rowtransposition" style={{ textDecoration: 'none' }}><Button color="inherit">Row Transposition</Button></Link>
+          <Link to="/des" style={{ textDecoration: 'none' }}><Button color="inherit">DES Protocol</Button></Link>
         </Box>
       </Toolbar>
     </AppBar>
